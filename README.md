@@ -194,80 +194,50 @@ Pembagian tugas dibuat berdasarkan bagian pekerjaan supaya setiap anggota memili
 
 ### Anggota 1 — Dataset dan preprocessing Linear Regression
 
-Tugas Anggota 1:
+- Memeriksa dataset California Housing Prices dari Kaggle dan pengambilannya dengan `kagglehub`.
+- Menjelaskan asal dataset, jumlah baris, kolom, fitur, dan target.
+- Memeriksa tipe data, data kosong, dan data duplikat.
+- Menghapus duplikat, menangani data kosong, dan menangani outlier dengan aturan IQR.
+- Menyiapkan pemisahan fitur-target dan pipeline preprocessing Linear Regression.
 
-- mencari dan memeriksa dataset California Housing Prices dari Kaggle;
-- memastikan dataset dapat diambil menggunakan `kagglehub`;
-- menjelaskan asal dataset, jumlah baris, jumlah kolom, fitur, dan target;
-- memeriksa tipe data, data kosong, dan data duplikat;
-- menghapus data duplikat;
-- menangani data kosong dengan median atau cara yang sesuai;
-- menangani outlier pada fitur angka menggunakan aturan IQR;
-- memisahkan fitur dan target pada Linear Regression;
-- membantu menyiapkan pipeline preprocessing;
-- menjelaskan alasan setiap langkah preprocessing.
-
-Hasil pekerjaan Anggota 1 digunakan pada bagian A1 dan A3 notebook `A_linear_regression.ipynb`.
+Hasilnya digunakan pada bagian A1 dan A3 notebook `A_linear_regression.ipynb`.
 
 ### Anggota 2 — Eksplorasi, visualisasi, dan evaluasi Linear Regression
 
-Tugas Anggota 2:
+- Membuat statistik deskriptif, histogram, heatmap korelasi, dan scatter plot.
+- Menulis temuan dari setiap visualisasi.
+- Membantu pemilihan fitur dengan korelasi atau `SelectKBest`.
+- Membagi data, menjalankan `LinearRegression`, dan menampilkan intercept serta koefisien.
+- Menghitung MAE, MSE, RMSE, dan R-squared.
+- Membuat grafik aktual-prediksi dan residual plot.
+- Membantu membahas overfitting, underfitting, fitur berpengaruh, dan keterbatasan model.
 
-- membuat statistik deskriptif dataset Linear Regression;
-- membuat histogram distribusi target;
-- membuat heatmap korelasi antar fitur angka;
-- membuat scatter plot fitur terhadap target;
-- menulis temuan sederhana dari setiap visualisasi;
-- membantu memilih fitur berdasarkan korelasi atau `SelectKBest`;
-- membagi data menjadi data latih dan data uji;
-- membuat dan menjalankan model `LinearRegression`;
-- menampilkan intercept dan koefisien;
-- menghitung MAE, MSE, RMSE, dan R-squared;
-- membuat grafik nilai aktual dan nilai prediksi;
-- membuat residual plot;
-- membantu membahas overfitting, underfitting, fitur yang berpengaruh, dan keterbatasan model.
-
-Hasil pekerjaan Anggota 2 digunakan pada bagian A2, A4, A5, A6, A7, dan A8 notebook `A_linear_regression.ipynb`.
+Hasilnya digunakan pada bagian A2, A4, A5, A6, A7, dan A8 notebook `A_linear_regression.ipynb`.
 
 ### Anggota 3 — Logistic Regression, evaluasi, dan dokumentasi
 
-Tugas Anggota 3:
+Tugas Anggota 3 adalah bagian saya:
 
-- mengambil dataset Breast Cancer Wisconsin dari Kaggle menggunakan `kagglehub`;
-- menjelaskan asal dataset, jumlah baris, jumlah kolom, fitur utama, dan target;
-- menjelaskan arti kelas `B` sebagai jinak dan `M` sebagai ganas;
-- membuang kolom `id` dan `Unnamed: 32` karena tidak diperlukan;
-- mengubah target `diagnosis` dari huruf menjadi angka, yaitu `B=0` dan `M=1`;
-- memeriksa statistik deskriptif, data kosong, data duplikat, dan jumlah setiap kelas;
-- membuat visualisasi distribusi kelas, box plot, dan heatmap korelasi;
-- menulis temuan dari setiap visualisasi;
-- menghapus duplikat dan menangani data kosong;
-- melakukan scaling pada fitur angka;
-- menangani jumlah kelas yang tidak seimbang dengan `class_weight='balanced'`;
-- memilih 10 fitur terbaik menggunakan `SelectKBest` dan `f_classif`;
-- membagi data dengan perbandingan 80:20 menggunakan `train_test_split`;
-- menggunakan `stratify=y` agar perbandingan kelas pada data latih dan data uji tetap mirip;
-- membuat model `LogisticRegression`;
-- menampilkan dan menjelaskan koefisien serta intercept;
-- menghitung accuracy, precision, recall, F1-score, dan AUC;
-- membuat confusion matrix dan ROC curve;
-- menjelaskan false positive dan false negative;
-- membahas fitur yang berpengaruh dan keterbatasan model;
-- menyusun README dan merapikan dokumentasi repository;
-- memeriksa kembali notebook agar dapat dijalankan dari awal sampai akhir.
+- Mengambil dataset Breast Cancer Wisconsin dari Kaggle dengan `kagglehub`.
+- Menjelaskan asal dataset, jumlah data, fitur utama, dan target.
+- Menjelaskan `B` sebagai jinak dan `M` sebagai ganas, lalu mengubahnya menjadi `B=0` dan `M=1`.
+- Membuang kolom `id` dan `Unnamed: 32` yang tidak diperlukan.
+- Memeriksa statistik deskriptif, data kosong, duplikat, dan jumlah setiap kelas.
+- Membuat distribusi kelas, box plot, dan heatmap korelasi serta menjelaskan hasilnya.
+- Menghapus duplikat, menangani data kosong, melakukan scaling, dan memakai `class_weight='balanced'`.
+- Memilih 10 fitur dengan `SelectKBest` dan `f_classif`.
+- Membagi data 80:20 dengan `train_test_split`, `stratify=y`, dan `random_state=42`.
+- Membuat `LogisticRegression`, lalu menjelaskan koefisien dan intercept.
+- Menghitung accuracy, precision, recall, F1-score, dan AUC.
+- Membuat confusion matrix dan ROC curve.
+- Menjelaskan false positive, false negative, fitur berpengaruh, dan keterbatasan model.
+- Menyusun README dan memeriksa notebook sebelum dikumpulkan.
 
-Hasil pekerjaan Anggota 3 digunakan pada bagian B1 sampai B8 notebook `B_logistic_regression.ipynb` serta pada file `README.md`.
+Hasilnya digunakan pada bagian B1 sampai B8 notebook `B_logistic_regression.ipynb` serta file `README.md`.
 
-### Kerja sama dan pemeriksaan akhir
+### Pemeriksaan akhir bersama
 
-Walaupun tugas dibagi seperti di atas, semua anggota tetap saling membantu saat ada error atau bagian yang belum dipahami. Sebelum dikumpulkan, kelompok memeriksa bersama bahwa:
-
-- kedua notebook dapat dijalankan dari awal sampai akhir;
-- grafik dan hasil evaluasi sudah muncul;
-- penjelasan di setiap bagian sesuai dengan kode;
-- nama dan NIM anggota sudah dicantumkan;
-- repository sudah berisi file yang diperlukan;
-- link repository yang sama dikumpulkan oleh setiap anggota.
+Semua anggota tetap saling membantu jika ada error. Sebelum dikumpulkan, kami memeriksa bahwa notebook dapat dijalankan dari awal sampai akhir, grafik dan hasil evaluasi muncul, penjelasan sesuai dengan kode, identitas anggota sudah benar, dan semua anggota mengumpulkan link repository yang sama.
 
 ---
 
