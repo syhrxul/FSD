@@ -4,11 +4,9 @@
 
 | Nama | NIM |
 |---|---|
-| Isi nama anggota 1 | Isi NIM |
-| Isi nama anggota 2 | Isi NIM |
-| Isi nama anggota 3 | Isi NIM |
-
-> Hapus baris anggota yang tidak digunakan. Jumlah anggota maksimal 3 orang.
+| Sa'adina Lutfia Rahmat | 25523033 |
+| Shalwa Ikara Putri | 25523004 |
+| Syahrul Imtikhan Ahmad | 25523064 |
 
 ## Deskripsi Tugas
 
@@ -192,7 +190,7 @@ Kedua notebook mengambil data langsung dari Kaggle, sehingga tidak perlu meng-up
 
 ## Pembagian Tugas Anggota
 
-Pembagian tugas dibuat berdasarkan bagian pekerjaan supaya setiap anggota memiliki tanggung jawab yang jelas. Anggota 3 adalah saya, sehingga saya mengerjakan seluruh bagian Logistic Regression dan menyusun README.
+Pembagian tugas dibuat berdasarkan bagian pekerjaan supaya setiap anggota memiliki tanggung jawab yang jelas. Syahrul Imtikhan Ahmad adalah Anggota 3, sehingga mengerjakan seluruh bagian Logistic Regression dan dokumentasi README.
 
 ### Anggota 1 — Dataset dan preprocessing Linear Regression
 
@@ -233,7 +231,7 @@ Hasil pekerjaan Anggota 2 digunakan pada bagian A2, A4, A5, A6, A7, dan A8 noteb
 
 ### Anggota 3 — Logistic Regression, evaluasi, dan dokumentasi
 
-Tugas Anggota 3 adalah bagian saya:
+Tugas Anggota 3:
 
 - mengambil dataset Breast Cancer Wisconsin dari Kaggle menggunakan `kagglehub`;
 - menjelaskan asal dataset, jumlah baris, jumlah kolom, fitur utama, dan target;
@@ -262,7 +260,7 @@ Hasil pekerjaan Anggota 3 digunakan pada bagian B1 sampai B8 notebook `B_logisti
 
 ### Kerja sama dan pemeriksaan akhir
 
-Walaupun tugas dibagi seperti di atas, semua anggota tetap saling membantu saat ada error atau bagian yang belum dipahami. Sebelum dikumpulkan, kami memeriksa bersama bahwa:
+Walaupun tugas dibagi seperti di atas, semua anggota tetap saling membantu saat ada error atau bagian yang belum dipahami. Sebelum dikumpulkan, kelompok memeriksa bersama bahwa:
 
 - kedua notebook dapat dijalankan dari awal sampai akhir;
 - grafik dan hasil evaluasi sudah muncul;
