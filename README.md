@@ -4,32 +4,14 @@
 
 | Nama | NIM |
 |---|---|
-| Isi nama anggota 1 | Isi NIM |
-| Isi nama anggota 2 | Isi NIM |
-| Isi nama anggota 3 | Isi NIM |
-
-> Hapus baris anggota yang tidak digunakan. Jumlah anggota maksimal 3 orang.
+| Sa'adina Lutfia Rahmat| 25523033 |
+| Shalwa Ikara Putri | 25523004 |
+| Syahrul Imtikhan Ahmad | 25523064 |
 
 ## Deskripsi Tugas
 
-Tugas ini membahas dua jenis model dalam Sains Data:
-
 1. **Linear Regression**, untuk memprediksi nilai berupa angka.
 2. **Logistic Regression**, untuk mengelompokkan data ke dalam dua kelas.
-
-Pengerjaan dilakukan menggunakan Python di Google Colab. Setiap notebook berisi penjelasan, proses pengolahan data, grafik, pembuatan model, dan evaluasi hasil.
-
----
-
-## File dalam Repository
-
-- `A_linear_regression.ipynb` berisi analisis Linear Regression menggunakan dataset California Housing Prices.
-- `B_logistic_regression.ipynb` berisi analisis Logistic Regression menggunakan dataset Breast Cancer Wisconsin.
-- `README.md` berisi penjelasan tugas, sumber data, cara menjalankan notebook, dan ringkasan hasil.
-
-Dataset tidak perlu disimpan di folder `data` karena kedua notebook mengambil data langsung dari Kaggle menggunakan `kagglehub`.
-
----
 
 # Bagian A — Linear Regression
 
@@ -192,26 +174,9 @@ Kedua notebook mengambil data langsung dari Kaggle, sehingga tidak perlu meng-up
 
 ## Pembagian Tugas Anggota
 
-Contoh pembagian tugas:
-
 - Anggota 1: mengambil dataset dan mengerjakan preprocessing Linear Regression.
 - Anggota 2: mengerjakan visualisasi dan evaluasi Linear Regression.
 - Anggota 3: mengerjakan Logistic Regression, evaluasi, dan README.
 
-Silakan ganti pembagian di atas sesuai pekerjaan yang benar-benar dilakukan oleh anggota kelompok.
-
 ---
 
-## Pengumpulan
-
-Repository GitHub dibuat dalam keadaan **public**. Isi repository minimal terdiri dari:
-
-```text
-README.md
-A_linear_regression.ipynb
-B_logistic_regression.ipynb
-```
-
-Karena data diambil langsung dari Kaggle, folder `data` tidak wajib dimasukkan ke repository.
-
-Link repository GitHub dikumpulkan melalui Google Classroom. Setiap anggota kelompok wajib mengumpulkan link repository GitHub yang sama di akun Classroom masing-masing.
