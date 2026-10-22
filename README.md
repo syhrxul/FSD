@@ -4,11 +4,9 @@
 
 | Nama | NIM |
 |---|---|
-| Isi nama anggota 1 | Isi NIM |
-| Isi nama anggota 2 | Isi NIM |
-| Isi nama anggota 3 | Isi NIM |
-
-> Hapus baris anggota yang tidak digunakan. Jumlah anggota maksimal 3 orang.
+| Sa'adina Lutfia Rahmat | 25523033 |
+| Shalwa Ikara Putri | 25523004 |
+| Syahrul Imtikhan Ahmad | 25523064 |
 
 ## Deskripsi Tugas
 
