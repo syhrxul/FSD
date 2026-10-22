@@ -4,9 +4,11 @@
 
 | Nama | NIM |
 |---|---|
-| Sa'adina Lutfia Rahmat | 25523033 |
-| Shalwa Ikara Putri | 25523004 |
-| Syahrul Imtikhan Ahmad | 25523064 |
+| Isi nama anggota 1 | Isi NIM |
+| Isi nama anggota 2 | Isi NIM |
+| Isi nama anggota 3 | Isi NIM |
+
+> Hapus baris anggota yang tidak digunakan. Jumlah anggota maksimal 3 orang.
 
 ## Deskripsi Tugas
 
@@ -190,54 +192,13 @@ Kedua notebook mengambil data langsung dari Kaggle, sehingga tidak perlu meng-up
 
 ## Pembagian Tugas Anggota
 
-Pembagian tugas dibuat berdasarkan bagian pekerjaan supaya setiap anggota memiliki tanggung jawab yang jelas. Syahrul Imtikhan Ahmad adalah Anggota 3, sehingga mengerjakan seluruh bagian Logistic Regression dan dokumentasi README.
+Contoh pembagian tugas:
 
-### Anggota 1 — Dataset dan preprocessing Linear Regression
+- Anggota 1: mengambil dataset dan mengerjakan preprocessing Linear Regression.
+- Anggota 2: mengerjakan visualisasi dan evaluasi Linear Regression.
+- Anggota 3: mengerjakan Logistic Regression, evaluasi, dan README.
 
-- Memeriksa dataset California Housing Prices dari Kaggle dan pengambilannya dengan `kagglehub`.
-- Menjelaskan asal dataset, jumlah baris, kolom, fitur, dan target.
-- Memeriksa tipe data, data kosong, dan data duplikat.
-- Menghapus duplikat, menangani data kosong, dan menangani outlier dengan aturan IQR.
-- Menyiapkan pemisahan fitur-target dan pipeline preprocessing Linear Regression.
-
-Hasilnya digunakan pada bagian A1 dan A3 notebook `A_linear_regression.ipynb`.
-
-### Anggota 2 — Eksplorasi, visualisasi, dan evaluasi Linear Regression
-
-- Membuat statistik deskriptif, histogram, heatmap korelasi, dan scatter plot.
-- Menulis temuan dari setiap visualisasi.
-- Membantu pemilihan fitur dengan korelasi atau `SelectKBest`.
-- Membagi data, menjalankan `LinearRegression`, dan menampilkan intercept serta koefisien.
-- Menghitung MAE, MSE, RMSE, dan R-squared.
-- Membuat grafik aktual-prediksi dan residual plot.
-- Membantu membahas overfitting, underfitting, fitur berpengaruh, dan keterbatasan model.
-
-Hasilnya digunakan pada bagian A2, A4, A5, A6, A7, dan A8 notebook `A_linear_regression.ipynb`.
-
-### Anggota 3 — Logistic Regression, evaluasi, dan dokumentasi
-
-Tugas Anggota 3 adalah bagian saya:
-
-- Mengambil dataset Breast Cancer Wisconsin dari Kaggle dengan `kagglehub`.
-- Menjelaskan asal dataset, jumlah data, fitur utama, dan target.
-- Menjelaskan `B` sebagai jinak dan `M` sebagai ganas, lalu mengubahnya menjadi `B=0` dan `M=1`.
-- Membuang kolom `id` dan `Unnamed: 32` yang tidak diperlukan.
-- Memeriksa statistik deskriptif, data kosong, duplikat, dan jumlah setiap kelas.
-- Membuat distribusi kelas, box plot, dan heatmap korelasi serta menjelaskan hasilnya.
-- Menghapus duplikat, menangani data kosong, melakukan scaling, dan memakai `class_weight='balanced'`.
-- Memilih 10 fitur dengan `SelectKBest` dan `f_classif`.
-- Membagi data 80:20 dengan `train_test_split`, `stratify=y`, dan `random_state=42`.
-- Membuat `LogisticRegression`, lalu menjelaskan koefisien dan intercept.
-- Menghitung accuracy, precision, recall, F1-score, dan AUC.
-- Membuat confusion matrix dan ROC curve.
-- Menjelaskan false positive, false negative, fitur berpengaruh, dan keterbatasan model.
-- Menyusun README dan memeriksa notebook sebelum dikumpulkan.
-
-Hasilnya digunakan pada bagian B1 sampai B8 notebook `B_logistic_regression.ipynb` serta file `README.md`.
-
-### Pemeriksaan akhir bersama
-
-Semua anggota tetap saling membantu jika ada error. Sebelum dikumpulkan, kami memeriksa bahwa notebook dapat dijalankan dari awal sampai akhir, grafik dan hasil evaluasi muncul, penjelasan sesuai dengan kode, identitas anggota sudah benar, dan semua anggota mengumpulkan link repository yang sama.
+Silakan ganti pembagian di atas sesuai pekerjaan yang benar-benar dilakukan oleh anggota kelompok.
 
 ---
 
