@@ -196,19 +196,9 @@ Contoh pembagian tugas:
 - Anggota 2: mengerjakan visualisasi dan evaluasi Linear Regression.
 - Anggota 3: mengerjakan Logistic Regression, evaluasi, dan README.
 
-Silakan ganti pembagian di atas sesuai pekerjaan yang benar-benar dilakukan oleh anggota kelompok.
 
 ---
 
-## Pengumpulan
-
-Repository GitHub dibuat dalam keadaan **public**. Isi repository minimal terdiri dari:
-
-```text
-README.md
-A_linear_regression.ipynb
-B_logistic_regression.ipynb
-```
 
 Karena data diambil langsung dari Kaggle, folder `data` tidak wajib dimasukkan ke repository.
 
